@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 25px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+.active {
+  background-color: darkorange;
+}
+body {
+  background-image: url('versus.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+#logo{
+  position: absolute;
+  top: 0.5px;
+  left: 10px;
+}
+nav{
+  position: sticky;
+    z-index: 1;
+  top: 0;
+}
+.box{
+  border-radius: 10px;
+  width: 800px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.boxHistory{
+  border-radius: 10px;
+  width: 1200px;
+  background: rgb(9,13,17);
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.boxHistory h2{
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.boxHistory p{
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.box-img{
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+}
+.box h2{
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-weight: 500px;
+}
+.box h3{
+  margin-top: 5px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#boxhead {
+  background-color: black;
+  position: relative;
+  width: 101.2%;
+  height:90px;
+  background: rgba(0, 0, 0, 0.9);
+  top: -12px;
+  left: -0.8%;
+}
+
+footer{
+  background-color: black;
+  height: auto;
+  width: 100vw;
+  font-family: sans-serif;
+  padding-top: 15px;
+  color: whitesmoke;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: orange;
+}
+.footer-content p {
+  max-width:1500px ;
+  margin: 25px;
+  line-height: 5px;
+  font-size: 14px;
+}
+.footer-content b {
+  color: darkorange;
+}
+.footer-bottom{
+  display: flex;
+  background-color: darkorange;
+  color: whitesmoke;
+  width: 100vw;
+  padding: 3px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+}
+h2{
+  padding-top: 20px;
+}
+.boxHistory p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
